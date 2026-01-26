@@ -1,0 +1,27 @@
+#v1.0.0
+
+-OG
+
+#v1.0.1
+
+-Removed NSP_Final_Out tool since its just the same as NSP_Precomp but with less options
+-NSP_New_Script_Generator will default with whatever values you entered in the NSP/init.py file
+-Can now change the script version in NSP_New_Script_Generator
+-Precomps will now always be called NSP_Precomp_(PrecompName) from just Precomp_(PrecompName)
+-NSP_Precomp node no longer breaks if you change the name to not have "Precomp_" in it
+
+#v1.0.2
+
+-Added a "NSP_Settings" node to change .nuke/NSP/init.py from inside Nuke
+-Created read nodes will now always use relative paths if possible
+-Removed "reads_relative_path" python tool from the menu, this is now automatic
+
+#v1.0.3 (2025/Nov/11)
+
+-Directory and file name getting for read/write nodes is much more robust. Uses python instead of tcl now.
+-"New_Script_Generator" name changed to "NSP_New_Script_Generator"
+-"NSP_New_Script_Generator" now has a browse files button for the projects path option
+
+#v1.0.4 (2026/Jan/26)
+
+-Bug fix: Relative path to Shows and Users folder should now work as intended; no more error on startup
