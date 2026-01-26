@@ -1,4 +1,4 @@
-# NSP_Settings v002
+# NSP_Settings v003
 
 import nuke
 import os
@@ -6,8 +6,13 @@ import os
 # Import the projects_dir variable from NSP/init.py
 from NSP.init import projects_dir, user, show
 
-userList = os.listdir(".nuke/NSP/Users")
-showList = os.listdir(".nuke/NSP/Shows")
+scriptDir = os.path.dirname(os.path.abspath(__file__))
+NSP_Dir = os.path.dirname(scriptDir)
+usersDir = os.path.join(NSP_Dir, "Users")
+showsDir = os.path.join(NSP_Dir, "Shows")
+
+userList = os.listdir(usersDir)
+showList = os.listdir(showsDir)
 
 userList.append("[None]")
 showList.append("[None]")
