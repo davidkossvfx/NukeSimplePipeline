@@ -1,6 +1,7 @@
 ## Installation
 
 To install, copy the "NSP" folder into your .nuke folder. You must also add the following line inside your .nuke/init.py file:
+
 nuke.pluginAddPath('NSP')
 
 If you don’t know how to find your .nuke folder, check out this guide:\
