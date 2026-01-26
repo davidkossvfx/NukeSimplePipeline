@@ -12,15 +12,15 @@ After installing, launch Nuke and create the "NSP_README" toolset inside the nod
 
 Nuke Simple Pipeline (NSP) is a collection of python tools that aim to replicate the workflow of a studio environment for Nuke artists. To establish a more streamlined workflow, NSP adds several automations and features that compositors typically find in a studio pipeline while requiring minimal user input. Key features of these tools include:
 
-1- Automatic and consistent naming convention and folder structure of scripts.
+1. Automatic and consistent naming convention and folder structure of scripts.
 
-2- More streamlined creation of read/write nodes with consistent names and versions.
+2. More streamlined creation of read/write nodes with consistent names and versions.
 
-3- All elements use relative paths to enable extreme portability for the entire project.
+3. All elements use relative paths to enable extreme portability for the entire project.
 
-4- Automatic versioning of write nodes to match current script version.
+4. Automatic versioning of write nodes to match current script version.
 
-5- Setting “Show” and “User” contexts that enables preferences to be modular and optional.
+5. Setting “Show” and “User” contexts that enables preferences to be modular and optional.
 
 As a result of these helpful additions, you will be able to copy and paste the project folder into a completely different system, and every script will seamlessly run as expected. Even the project directory is procedurally generated relative to the script location.
 
